@@ -1,0 +1,38 @@
+/* mobile css */
+
+body {
+  background-color: lightskyblue;
+}
+header {
+  background-color: #000;
+}
+header nav {
+  padding: 20px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+header nav a {
+  color: #fff;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+#main-title {
+  background-color: blueviolet;
+  color: #fff;
+  height: 400px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 50px;
+  background-image: url(./images/title-bg.jpg.jpg);
+  background-size: cover;
+  filter: brightness(80%);
+  text-shadow: 1px 1px 2px #000;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* 주(요)측이 column으로 세로라서 justify-content가 주측을 위주로 하기 때문에 가운데(설정)로 옴 */
+}
+/* 상의폴더로 이미지 가져오는 방법 '../' 
+   동일폴더 './' */
