@@ -35,3 +35,40 @@ header nav a {
 
 /* 상의폴더로 이미지 가져오는 방법 '../' 
    동일폴더 './' */
+
+main {
+  margin: 0 auto;
+  width: 1400px;
+  /* max-width값 */
+}
+
+main .container {
+  display: flex;
+  width: 1400px;
+}
+main .container article {
+  width: 50%;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  padding: 40px;
+}
+ul li {
+  margin-bottom: 10px;
+}
+
+main .container article:nth-child(2) {
+  background-color: rgb(213, 213, 208);
+}
+#choice {
+  padding: 50px;
+  background-color: #fff;
+}
+footer {
+  background-color: #000;
+  color: #fff;
+  width: 1400px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+  font-size: 1.5em;
+}

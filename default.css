@@ -8,8 +8,21 @@
 ul {
   list-style-type: none;
 }
+ol {
+  list-style-position: inside;
+  /* 안쪽 정렬 */
+}
+li {
+  margin-bottom: 10px;
+}
 a {
   text-decoration: none;
+}
+h2 {
+  margin-bottom: 1em;
+}
+p {
+  margin-bottom: 1em;
 }
 
 .detail-btn {
